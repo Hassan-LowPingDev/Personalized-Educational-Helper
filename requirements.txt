@@ -1,0 +1,35 @@
+# User interface
+streamlit
+pandas
+
+# LLM orchestration
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+
+# Environment configuration
+python-dotenv
+
+# Data validation and structured outputs
+pydantic
+
+# Document ingestion
+pypdf
+pymupdf
+docx2txt
+
+# Optional: local document retrieval
+langchain-text-splitters
+langchain-chroma
+
+
+streamlit>=1.40
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-google-genai>=2.0
+faiss-cpu>=1.8
+fastembed>=0.4
+pypdf>=5.0
+python-dotenv>=1.0
